@@ -5,6 +5,8 @@ import Parcels.Parcel;
  */
 public class Container {
 
+    Location toAdd = null;
+
     private static final int LENGTH = 33;
     private static final int WIDTH = 5;
     private static final int Height = 8;
@@ -31,7 +33,7 @@ public class Container {
         return instance;
     }
 
-    public void add(Location cooridates, Parcel parcel){
+    public void add(Location myLocation, Parcel parcel){
 
     }
     /**
