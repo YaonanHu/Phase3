@@ -31,7 +31,9 @@ public class Container {
         return instance;
     }
 
+    public void add(Location cooridates, Parcel parcel){
 
+    }
     /**
      * Set everything in array as -1
      * @param shape
@@ -46,9 +48,7 @@ public class Container {
         }
     }
 
-    public void add(){
-        
-    }
+
 
     public static int getHeight() {
         return Height;
